@@ -7,70 +7,50 @@
     <title>CARDS</title>
 </head>
 <body>
-    <!--CARD COM IMAGEM-->
+    <!--GRID COM DUAS COLUNAS, CUMA MAIOR E OUTRA MENOR-->
     <div class="container">
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-
- <!--CARD COM LINKS-->
-            <div class="card" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
-                </div>
-            </div>
-<!--CARD COM LISTA E LINKS + IMAGENS-->
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the catitle and make up the bulk of the card's content.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">An item</li>
-                    <li class="list-group-item">A second item</li>
-                    <li class="list-group-item">A third item</li>
-                </ul>
-                <div class="card-body">
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
-                </div>
-            </div>
-
-
-<!--CARD COM TOPICO COMO MATERIA, E VARIOS CARDS-->
-<div class="card">
-    <div class="card-header">
-        TESTE
-    </div>
-    <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-    <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-
-<!--CARD COM IMAGEM E UM TEMPO DE ATUALIZAÇÃO-->
-    <div class="card mb-3">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <div class="row">
+            <div class="col-9">loremText100</div>
+            <div class="col">loremText50</div>
         </div>
-    </div>
+ <!--GRID COM DUAS LINHAS, E DIFERENTES TAMANHOS DE COLUNA -->
+        <div class="row">
+            <div class="col coll">
+                1 of 3
+            </div>
+            <div class="col-6 coll">
+                2 of 3 (Fixo de 6)
+            </div>
+            <div class="col coll">
+                3 of 3
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col coll">
+                1 of 3
+            </div>
+            <div class="col-5 coll">
+                2 of 3 (Fixo de 5)
+            </div>
+            <div class="col coll">
+                3 of 3
+            </div>
+        </div>
+
+         <!--QUE É RESPONSIVO A DIFERENTES TIPOS DE TELAS -->
+
+         <div class="row">
+            <div class="col-sm coll">col BreakPoint pequeno</div>
+            <div class="col-sm coll">col BreakPoint pequeno</div>
+            <div class="col-sm coll">col BreakPoint pequeno</div>
+            <div class="col-sm coll">col BreakPoint pequeno</div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 coll">col-8 BreakPoint Médio</div>
+            <div class="col-md-4 coll">col-4 BreakPoint Médio</div>
+        </div>
+     
 </div>
   
 
